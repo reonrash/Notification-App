@@ -469,17 +469,17 @@ export default function Home() {
 
             {/* Right Column - Abstract Geometric Art */}
             <div className="flex items-center justify-center">
-              <div className="relative" style={{width: '400px', height: '400px'}}>
+              <div className="relative w-full max-w-[400px] aspect-square" style={{maxHeight: '400px'}}>
 
                 {/* Large central circle - brightest */}
                 <div
                   className="absolute rounded-full"
                   style={{
-                    width: '160px',
-                    height: '160px',
+                    width: '40%',
+                    height: '40%',
                     background: 'rgba(255, 123, 0, 0.4)',
-                    top: '120px',
-                    left: '120px',
+                    top: '30%',
+                    left: '30%',
                     borderRadius: '50%',
                     boxShadow: '0 0 40px rgba(255, 123, 0, 0.2)'
                   }}
@@ -489,33 +489,33 @@ export default function Home() {
                 <div
                   className="absolute rounded-full"
                   style={{
-                    width: '80px',
-                    height: '80px',
+                    width: '20%',
+                    height: '20%',
                     background: 'rgba(255, 123, 0, 0.25)',
-                    top: '40px',
-                    left: '160px',
+                    top: '10%',
+                    left: '40%',
                     borderRadius: '50%'
                   }}
                 />
                 <div
                   className="absolute rounded-full"
                   style={{
-                    width: '100px',
-                    height: '100px',
+                    width: '25%',
+                    height: '25%',
                     background: 'rgba(255, 123, 0, 0.2)',
-                    top: '280px',
-                    left: '50px',
+                    top: '70%',
+                    left: '12.5%',
                     borderRadius: '50%'
                   }}
                 />
                 <div
                   className="absolute rounded-full"
                   style={{
-                    width: '70px',
-                    height: '70px',
+                    width: '17.5%',
+                    height: '17.5%',
                     background: 'rgba(255, 123, 0, 0.3)',
-                    top: '60px',
-                    left: '290px',
+                    top: '15%',
+                    left: '72.5%',
                     borderRadius: '50%'
                   }}
                 />
@@ -524,55 +524,55 @@ export default function Home() {
                 <div
                   className="absolute rounded-full"
                   style={{
-                    width: '35px',
-                    height: '35px',
+                    width: '8.75%',
+                    height: '8.75%',
                     background: 'rgba(255, 123, 0, 0.5)',
-                    top: '20px',
-                    left: '80px',
+                    top: '5%',
+                    left: '20%',
                     borderRadius: '50%'
                   }}
                 />
                 <div
                   className="absolute rounded-full"
                   style={{
-                    width: '15px',
-                    height: '15px',
+                    width: '3.75%',
+                    height: '3.75%',
                     background: 'rgba(255, 123, 0, 0.6)',
-                    top: '350px',
-                    left: '200px',
+                    top: '87.5%',
+                    left: '50%',
                     borderRadius: '50%'
                   }}
                 />
                 <div
                   className="absolute rounded-full"
                   style={{
-                    width: '25px',
-                    height: '25px',
+                    width: '6.25%',
+                    height: '6.25%',
                     background: 'rgba(255, 123, 0, 0.45)',
-                    top: '180px',
-                    left: '350px',
+                    top: '45%',
+                    left: '87.5%',
                     borderRadius: '50%'
                   }}
                 />
                 <div
                   className="absolute rounded-full"
                   style={{
-                    width: '45px',
-                    height: '45px',
+                    width: '11.25%',
+                    height: '11.25%',
                     background: 'rgba(255, 123, 0, 0.18)',
-                    top: '300px',
-                    left: '300px',
+                    top: '75%',
+                    left: '75%',
                     borderRadius: '50%'
                   }}
                 />
                 <div
                   className="absolute rounded-full"
                   style={{
-                    width: '12px',
-                    height: '12px',
+                    width: '3%',
+                    height: '3%',
                     background: 'rgba(255, 123, 0, 0.7)',
-                    top: '140px',
-                    left: '30px',
+                    top: '35%',
+                    left: '7.5%',
                     borderRadius: '50%'
                   }}
                 />
@@ -581,11 +581,11 @@ export default function Home() {
                 <div
                   className="absolute"
                   style={{
-                    width: '140px',
-                    height: '3px',
+                    width: '35%',
+                    height: '0.75%',
                     background: 'linear-gradient(90deg, rgba(255, 123, 0, 0.3) 0%, rgba(255, 123, 0, 0.1) 100%)',
-                    top: '200px',
-                    left: '120px',
+                    top: '50%',
+                    left: '30%',
                     transform: 'rotate(25deg)',
                     transformOrigin: 'left center'
                   }}
@@ -593,11 +593,11 @@ export default function Home() {
                 <div
                   className="absolute"
                   style={{
-                    width: '100px',
-                    height: '2px',
+                    width: '25%',
+                    height: '0.5%',
                     background: 'linear-gradient(90deg, rgba(255, 123, 0, 0.25) 0%, rgba(255, 123, 0, 0.05) 100%)',
-                    top: '120px',
-                    left: '200px',
+                    top: '30%',
+                    left: '50%',
                     transform: 'rotate(-45deg)',
                     transformOrigin: 'left center'
                   }}
@@ -605,11 +605,11 @@ export default function Home() {
                 <div
                   className="absolute"
                   style={{
-                    width: '80px',
-                    height: '1px',
+                    width: '20%',
+                    height: '0.25%',
                     background: 'linear-gradient(90deg, rgba(255, 123, 0, 0.4) 0%, rgba(255, 123, 0, 0.15) 100%)',
-                    top: '100px',
-                    left: '100px',
+                    top: '25%',
+                    left: '25%',
                     transform: 'rotate(70deg)',
                     transformOrigin: 'left center'
                   }}
@@ -617,11 +617,11 @@ export default function Home() {
                 <div
                   className="absolute"
                   style={{
-                    width: '120px',
-                    height: '2px',
+                    width: '30%',
+                    height: '0.5%',
                     background: 'linear-gradient(90deg, rgba(255, 123, 0, 0.2) 0%, rgba(255, 123, 0, 0.08) 100%)',
-                    top: '250px',
-                    left: '150px',
+                    top: '62.5%',
+                    left: '37.5%',
                     transform: 'rotate(-15deg)',
                     transformOrigin: 'left center'
                   }}
@@ -629,11 +629,11 @@ export default function Home() {
                 <div
                   className="absolute"
                   style={{
-                    width: '60px',
-                    height: '1px',
+                    width: '15%',
+                    height: '0.25%',
                     background: 'linear-gradient(90deg, rgba(255, 123, 0, 0.35) 0%, rgba(255, 123, 0, 0.12) 100%)',
-                    top: '80px',
-                    left: '250px',
+                    top: '20%',
+                    left: '62.5%',
                     transform: 'rotate(110deg)',
                     transformOrigin: 'left center'
                   }}
@@ -643,33 +643,33 @@ export default function Home() {
                 <div
                   className="absolute rounded-full"
                   style={{
-                    width: '8px',
-                    height: '8px',
+                    width: '2%',
+                    height: '2%',
                     background: 'rgba(255, 123, 0, 0.4)',
-                    top: '90px',
-                    left: '190px',
+                    top: '22.5%',
+                    left: '47.5%',
                     borderRadius: '50%'
                   }}
                 />
                 <div
                   className="absolute rounded-full"
                   style={{
-                    width: '6px',
-                    height: '6px',
+                    width: '1.5%',
+                    height: '1.5%',
                     background: 'rgba(255, 123, 0, 0.5)',
-                    top: '230px',
-                    left: '280px',
+                    top: '57.5%',
+                    left: '70%',
                     borderRadius: '50%'
                   }}
                 />
                 <div
                   className="absolute rounded-full"
                   style={{
-                    width: '10px',
-                    height: '10px',
+                    width: '2.5%',
+                    height: '2.5%',
                     background: 'rgba(255, 123, 0, 0.3)',
-                    top: '160px',
-                    left: '70px',
+                    top: '40%',
+                    left: '17.5%',
                     borderRadius: '50%'
                   }}
                 />
