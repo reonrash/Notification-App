@@ -186,7 +186,7 @@ export function AlertsDisplay({ user }: AlertsDisplayProps) {
                   borderLeft: alert.read_at ? 'none' : '6px solid rgb(var(--color-primary-orange))'
                 }}
               >
-                <div className="flex items-start justify-between">
+                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between" style={{gap: '16px'}}>
                   <div className="flex-1">
                     <div className="flex items-center" style={{gap: '8px', marginBottom: '8px'}}>
                       <h3 className="font-semibold" style={{color: 'rgb(var(--color-text-dark))'}}>
@@ -205,11 +205,12 @@ export function AlertsDisplay({ user }: AlertsDisplayProps) {
                     </div>
                   </div>
 
-                  <div className="flex" style={{gap: '8px'}}>
+                  <div className="flex flex-col sm:flex-row w-full sm:w-auto" style={{gap: '8px'}}>
                     <Button
                       size="sm"
                       variant="outline"
                       onClick={() => window.open(alert.job.url, '_blank')}
+                      className="w-full sm:w-auto"
                     >
                       View Job
                     </Button>
@@ -218,6 +219,7 @@ export function AlertsDisplay({ user }: AlertsDisplayProps) {
                         size="sm"
                         variant="ghost"
                         onClick={() => markAsRead(alert.id)}
+                        className="w-full sm:w-auto"
                       >
                         Mark Read
                       </Button>
