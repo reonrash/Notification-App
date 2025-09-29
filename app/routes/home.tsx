@@ -380,7 +380,7 @@ export default function Home() {
       </div>
 
       {/* Features Section - Full Width */}
-      <div style={{backgroundColor: 'rgb(var(--color-surface-white))', paddingTop: '80px', paddingBottom: '80px'}}>
+      <div style={{backgroundColor: 'rgb(var(--color-bg-canvas))', paddingTop: '80px', paddingBottom: '80px'}}>
         <div className="max-w-6xl mx-auto" style={{padding: '0 32px'}}>
           <div style={{gap: '48px'}} className="flex flex-col">
             <div className="text-center">
@@ -391,7 +391,7 @@ export default function Home() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3" style={{gap: '32px'}}>
-              <div className="text-center group rounded-lg transition-all" style={{backgroundColor: 'rgb(var(--color-bg-canvas))', boxShadow: '0px 4px 15px 0px rgba(0, 0, 0, 0.08)'}}>
+              <div className="text-center group rounded-lg transition-all" style={{backgroundColor: 'rgb(var(--color-surface-white))', boxShadow: '0px 4px 15px 0px rgba(0, 0, 0, 0.08)'}}>
                 <div style={{padding: '32px'}}>
                   <div className="text-4xl group-hover:scale-110 transition-transform duration-300" style={{marginBottom: '24px'}}>🔍</div>
                   <h3 className="text-lg font-semibold" style={{color: 'rgb(var(--color-text-dark))', marginBottom: '12px'}}>Keyword Tracking</h3>
@@ -401,7 +401,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="text-center group rounded-lg transition-all" style={{backgroundColor: 'rgb(var(--color-bg-canvas))', boxShadow: '0px 4px 15px 0px rgba(0, 0, 0, 0.08)'}}>
+              <div className="text-center group rounded-lg transition-all" style={{backgroundColor: 'rgb(var(--color-surface-white))', boxShadow: '0px 4px 15px 0px rgba(0, 0, 0, 0.08)'}}>
                 <div style={{padding: '32px'}}>
                   <div className="text-4xl group-hover:scale-110 transition-transform duration-300" style={{marginBottom: '24px'}}>⚡</div>
                   <h3 className="text-lg font-semibold" style={{color: 'rgb(var(--color-text-dark))', marginBottom: '12px'}}>Real-time Alerts</h3>
@@ -411,7 +411,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="text-center group rounded-lg transition-all" style={{backgroundColor: 'rgb(var(--color-bg-canvas))', boxShadow: '0px 4px 15px 0px rgba(0, 0, 0, 0.08)'}}>
+              <div className="text-center group rounded-lg transition-all" style={{backgroundColor: 'rgb(var(--color-surface-white))', boxShadow: '0px 4px 15px 0px rgba(0, 0, 0, 0.08)'}}>
                 <div style={{padding: '32px'}}>
                   <div className="text-4xl group-hover:scale-110 transition-transform duration-300" style={{marginBottom: '24px'}}>📋</div>
                   <h3 className="text-lg font-semibold" style={{color: 'rgb(var(--color-text-dark))', marginBottom: '12px'}}>Stay Organized</h3>
@@ -426,17 +426,20 @@ export default function Home() {
       </div>
 
       {/* System Architecture Section - Full Width */}
-      <div style={{backgroundColor: 'rgb(var(--color-bg-canvas))', paddingTop: '80px', paddingBottom: '80px'}}>
+      <div style={{backgroundColor: 'rgb(var(--color-bg-canvas))', paddingTop: '60px', paddingBottom: '60px'}}>
         <div className="max-w-7xl mx-auto" style={{padding: '0 32px'}}>
           {/* Section Title */}
-          <div className="text-center" style={{marginBottom: '64px'}}>
-            <h2 className="text-3xl font-bold" style={{color: 'rgb(var(--color-text-dark))'}}>Under the Hood</h2>
+          <div className="text-center" style={{marginBottom: '40px'}}>
+            <h2 className="text-3xl font-bold" style={{color: 'rgb(var(--color-text-dark))', marginBottom: '12px'}}>Under the Hood</h2>
+            <p className="text-lg" style={{color: 'rgb(var(--color-text-light))', maxWidth: '600px', margin: '0 auto'}}>
+              Discover the powerful technology stack that makes instant job discovery possible
+            </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 w-full max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 w-full max-w-7xl mx-auto">
             {/* Left Column - Content */}
-            <div className="flex flex-col justify-center" style={{gap: '32px'}}>
-              <div style={{gap: '16px'}} className="flex flex-col">
+            <div className="flex flex-col justify-center" style={{gap: '24px'}}>
+              <div style={{gap: '12px'}} className="flex flex-col">
                 <h2 className="text-lg font-semibold" style={{color: 'rgb(var(--color-text-dark))'}}>Real-Time Job Discovery</h2>
                 <p style={{color: 'rgb(var(--color-text-light))', lineHeight: '1.6', maxWidth: '500px'}}>
                   Built with custom scrapers, Kafka streaming, and intelligent workers to deliver instant job alerts tailored to your keywords and preferences.
@@ -446,7 +449,7 @@ export default function Home() {
               {/* Horizontal line */}
               <div style={{width: '100%', height: '1px', backgroundColor: 'rgb(var(--color-border))', maxWidth: '500px'}} />
 
-              <div style={{gap: '16px'}} className="flex flex-col">
+              <div style={{gap: '12px'}} className="flex flex-col">
                 <h3 className="text-lg font-semibold" style={{color: 'rgb(var(--color-text-dark))'}}>Custom Scrapers</h3>
                 <p style={{color: 'rgb(var(--color-text-light))', lineHeight: '1.6'}}>
                   Our specialized scrapers continuously monitor major job boards including LinkedIn, Indeed, Glassdoor, and company career pages in real-time.
@@ -456,7 +459,7 @@ export default function Home() {
               {/* Horizontal line */}
               <div style={{width: '100%', height: '1px', backgroundColor: 'rgb(var(--color-border))', maxWidth: '500px'}} />
 
-              <div style={{gap: '16px'}} className="flex flex-col">
+              <div style={{gap: '12px'}} className="flex flex-col">
                 <h3 className="text-lg font-semibold" style={{color: 'rgb(var(--color-text-dark))'}}>Intelligent Processing</h3>
                 <p style={{color: 'rgb(var(--color-text-light))', lineHeight: '1.6'}}>
                   Kafka streams handle high-volume job data while our ingestion workers process, filter, and match opportunities with your subscriptions using Supabase.
@@ -464,125 +467,210 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Right Column - Advanced Data Flow Visual */}
+            {/* Right Column - Abstract Geometric Art */}
             <div className="flex items-center justify-center">
-              <div className="relative" style={{width: '350px', height: '350px'}}>
+              <div className="relative" style={{width: '400px', height: '400px'}}>
 
-                {/* Large circle - top */}
+                {/* Large central circle - brightest */}
                 <div
                   className="absolute rounded-full"
                   style={{
-                    width: '120px',
-                    height: '120px',
+                    width: '160px',
+                    height: '160px',
+                    background: 'rgba(255, 123, 0, 0.4)',
+                    top: '120px',
+                    left: '120px',
+                    borderRadius: '50%',
+                    boxShadow: '0 0 40px rgba(255, 123, 0, 0.2)'
+                  }}
+                />
+
+                {/* Medium orbiting circles */}
+                <div
+                  className="absolute rounded-full"
+                  style={{
+                    width: '80px',
+                    height: '80px',
+                    background: 'rgba(255, 123, 0, 0.25)',
+                    top: '40px',
+                    left: '160px',
+                    borderRadius: '50%'
+                  }}
+                />
+                <div
+                  className="absolute rounded-full"
+                  style={{
+                    width: '100px',
+                    height: '100px',
+                    background: 'rgba(255, 123, 0, 0.2)',
+                    top: '280px',
+                    left: '50px',
+                    borderRadius: '50%'
+                  }}
+                />
+                <div
+                  className="absolute rounded-full"
+                  style={{
+                    width: '70px',
+                    height: '70px',
                     background: 'rgba(255, 123, 0, 0.3)',
-                    top: '30px',
-                    left: '115px',
+                    top: '60px',
+                    left: '290px',
                     borderRadius: '50%'
                   }}
                 />
 
-                {/* Medium rectangle - left */}
+                {/* Small accent circles with high variability */}
                 <div
-                  className="absolute"
+                  className="absolute rounded-full"
                   style={{
-                    width: '80px',
-                    height: '100px',
-                    background: 'rgba(255, 123, 0, 0.2)',
-                    top: '80px',
-                    left: '40px',
-                    borderRadius: '12px'
-                  }}
-                />
-
-                {/* Medium rectangle - right */}
-                <div
-                  className="absolute"
-                  style={{
-                    width: '80px',
-                    height: '100px',
-                    background: 'rgba(255, 123, 0, 0.25)',
-                    top: '80px',
-                    left: '230px',
-                    borderRadius: '12px'
-                  }}
-                />
-
-                {/* Bottom row squares */}
-                <div
-                  className="absolute"
-                  style={{
-                    width: '60px',
-                    height: '60px',
-                    background: 'rgba(255, 123, 0, 0.15)',
-                    top: '220px',
-                    left: '60px',
-                    borderRadius: '8px'
+                    width: '35px',
+                    height: '35px',
+                    background: 'rgba(255, 123, 0, 0.5)',
+                    top: '20px',
+                    left: '80px',
+                    borderRadius: '50%'
                   }}
                 />
                 <div
-                  className="absolute"
+                  className="absolute rounded-full"
                   style={{
-                    width: '60px',
-                    height: '60px',
-                    background: 'rgba(255, 123, 0, 0.2)',
-                    top: '220px',
-                    left: '145px',
-                    borderRadius: '8px'
+                    width: '15px',
+                    height: '15px',
+                    background: 'rgba(255, 123, 0, 0.6)',
+                    top: '350px',
+                    left: '200px',
+                    borderRadius: '50%'
                   }}
                 />
-                <div
-                  className="absolute"
-                  style={{
-                    width: '60px',
-                    height: '60px',
-                    background: 'rgba(255, 123, 0, 0.18)',
-                    top: '220px',
-                    left: '230px',
-                    borderRadius: '8px'
-                  }}
-                />
-
-                {/* Small accent circles */}
                 <div
                   className="absolute rounded-full"
                   style={{
                     width: '25px',
                     height: '25px',
-                    background: 'rgba(255, 123, 0, 0.4)',
-                    top: '300px',
-                    left: '100px'
+                    background: 'rgba(255, 123, 0, 0.45)',
+                    top: '180px',
+                    left: '350px',
+                    borderRadius: '50%'
                   }}
                 />
                 <div
                   className="absolute rounded-full"
                   style={{
-                    width: '20px',
-                    height: '20px',
-                    background: 'rgba(255, 123, 0, 0.35)',
-                    top: '50px',
-                    left: '280px'
+                    width: '45px',
+                    height: '45px',
+                    background: 'rgba(255, 123, 0, 0.18)',
+                    top: '300px',
+                    left: '300px',
+                    borderRadius: '50%'
+                  }}
+                />
+                <div
+                  className="absolute rounded-full"
+                  style={{
+                    width: '12px',
+                    height: '12px',
+                    background: 'rgba(255, 123, 0, 0.7)',
+                    top: '140px',
+                    left: '30px',
+                    borderRadius: '50%'
                   }}
                 />
 
-                {/* Connection lines */}
+                {/* Connecting lines with varying thickness and opacity */}
                 <div
                   className="absolute"
                   style={{
-                    width: '2px',
-                    height: '40px',
-                    background: 'rgba(255, 123, 0, 0.2)',
-                    top: '160px',
-                    left: '174px'
+                    width: '140px',
+                    height: '3px',
+                    background: 'linear-gradient(90deg, rgba(255, 123, 0, 0.3) 0%, rgba(255, 123, 0, 0.1) 100%)',
+                    top: '200px',
+                    left: '120px',
+                    transform: 'rotate(25deg)',
+                    transformOrigin: 'left center'
                   }}
                 />
                 <div
                   className="absolute"
                   style={{
-                    width: '40px',
+                    width: '100px',
                     height: '2px',
-                    background: 'rgba(255, 123, 0, 0.2)',
-                    top: '130px',
-                    left: '155px'
+                    background: 'linear-gradient(90deg, rgba(255, 123, 0, 0.25) 0%, rgba(255, 123, 0, 0.05) 100%)',
+                    top: '120px',
+                    left: '200px',
+                    transform: 'rotate(-45deg)',
+                    transformOrigin: 'left center'
+                  }}
+                />
+                <div
+                  className="absolute"
+                  style={{
+                    width: '80px',
+                    height: '1px',
+                    background: 'linear-gradient(90deg, rgba(255, 123, 0, 0.4) 0%, rgba(255, 123, 0, 0.15) 100%)',
+                    top: '100px',
+                    left: '100px',
+                    transform: 'rotate(70deg)',
+                    transformOrigin: 'left center'
+                  }}
+                />
+                <div
+                  className="absolute"
+                  style={{
+                    width: '120px',
+                    height: '2px',
+                    background: 'linear-gradient(90deg, rgba(255, 123, 0, 0.2) 0%, rgba(255, 123, 0, 0.08) 100%)',
+                    top: '250px',
+                    left: '150px',
+                    transform: 'rotate(-15deg)',
+                    transformOrigin: 'left center'
+                  }}
+                />
+                <div
+                  className="absolute"
+                  style={{
+                    width: '60px',
+                    height: '1px',
+                    background: 'linear-gradient(90deg, rgba(255, 123, 0, 0.35) 0%, rgba(255, 123, 0, 0.12) 100%)',
+                    top: '80px',
+                    left: '250px',
+                    transform: 'rotate(110deg)',
+                    transformOrigin: 'left center'
+                  }}
+                />
+
+                {/* Tiny detail circles for texture */}
+                <div
+                  className="absolute rounded-full"
+                  style={{
+                    width: '8px',
+                    height: '8px',
+                    background: 'rgba(255, 123, 0, 0.4)',
+                    top: '90px',
+                    left: '190px',
+                    borderRadius: '50%'
+                  }}
+                />
+                <div
+                  className="absolute rounded-full"
+                  style={{
+                    width: '6px',
+                    height: '6px',
+                    background: 'rgba(255, 123, 0, 0.5)',
+                    top: '230px',
+                    left: '280px',
+                    borderRadius: '50%'
+                  }}
+                />
+                <div
+                  className="absolute rounded-full"
+                  style={{
+                    width: '10px',
+                    height: '10px',
+                    background: 'rgba(255, 123, 0, 0.3)',
+                    top: '160px',
+                    left: '70px',
+                    borderRadius: '50%'
                   }}
                 />
               </div>

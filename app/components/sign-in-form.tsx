@@ -62,7 +62,7 @@ export function SignInForm({ onSuccess }: SignInFormProps) {
           name="email"
           render={({ field }) => (
             <FormItem className="space-y-3">
-              <FormLabel>Email</FormLabel>
+              <FormLabel className="mb-4">Email</FormLabel>
               <FormControl>
                 <Input type="email" placeholder="you@example.com" {...field} />
               </FormControl>
@@ -76,9 +76,9 @@ export function SignInForm({ onSuccess }: SignInFormProps) {
           name="password"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Password</FormLabel>
+              <FormLabel className="mb-4">Password</FormLabel>
               <FormControl>
-                <Input type="password" placeholder="••••••••" {...field} />
+                <Input type="password" placeholder="" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>

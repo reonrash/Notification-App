@@ -9,7 +9,7 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-emerald-600 text-white hover:bg-emerald-700 focus:ring-emerald-500/20 shadow-sm hover:shadow-md",
+        default: "bg-orange-600 text-white hover:bg-orange-700 focus:ring-orange-500/20 shadow-sm hover:shadow-md",
         destructive:
           "bg-red-500 text-white hover:bg-red-600 focus:ring-red-500/20 shadow-sm",
         outline:
@@ -17,7 +17,7 @@ const buttonVariants = cva(
         secondary:
           "bg-slate-100 text-slate-700 hover:bg-slate-200 focus:ring-slate-200",
         ghost: "text-slate-600 hover:bg-slate-100 hover:text-slate-800",
-        link: "text-emerald-600 underline-offset-4 hover:underline hover:text-emerald-700",
+        link: "text-orange-600 underline-offset-4 hover:underline hover:text-orange-700",
       },
       size: {
         default: "h-11 px-6 py-3 text-base",

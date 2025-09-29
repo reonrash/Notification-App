@@ -84,7 +84,7 @@ export function SignUpForm({ onSuccess }: SignUpFormProps) {
           name="email"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Email</FormLabel>
+              <FormLabel className="mb-4">Email</FormLabel>
               <FormControl>
                 <Input type="email" placeholder="you@example.com" {...field} />
               </FormControl>
@@ -98,9 +98,9 @@ export function SignUpForm({ onSuccess }: SignUpFormProps) {
           name="password"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Password</FormLabel>
+              <FormLabel className="mb-4">Password</FormLabel>
               <FormControl>
-                <Input type="password" placeholder="••••••••" {...field} />
+                <Input type="password" placeholder="" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -112,9 +112,9 @@ export function SignUpForm({ onSuccess }: SignUpFormProps) {
           name="confirmPassword"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Confirm Password</FormLabel>
+              <FormLabel className="mb-4">Confirm Password</FormLabel>
               <FormControl>
-                <Input type="password" placeholder="••••••••" {...field} />
+                <Input type="password" placeholder="" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
