@@ -78,7 +78,7 @@ export function SubscriptionManager({ user }: SubscriptionManagerProps) {
           filter_string,
           company_id,
           location_filter,
-          companies:company_id (name)
+          company:companies!company_id (name)
         `)
         .eq('user_id', user.id)
 
@@ -242,8 +242,8 @@ export function SubscriptionManager({ user }: SubscriptionManagerProps) {
                     <div style={{gap: '4px', marginTop: '8px'}} className="flex flex-col">
                       <p className="text-sm" style={{color: 'rgb(var(--color-text-light))'}}>
                         {subscription.company_id
-                          ? `at ${subscription.company?.name || 'Unknown Company'}`
-                          : 'at All Companies'
+                          ? `🏢 ${subscription.company?.name || 'Unknown Company'}`
+                          : '🏢 All Companies'
                         }
                       </p>
                       <p className="text-sm" style={{color: 'rgb(var(--color-text-light))'}}>
