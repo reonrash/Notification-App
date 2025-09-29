@@ -1,15 +1,13 @@
-# Notification App
+# Job Notification App
 
-A React-based notification management application built with React Router and TypeScript.
+A React frontend for a job notification application built with TypeScript and TailwindCSS.
 
 ## Features
 
-- Server-side rendering
+- Job notification management
+- TypeScript support
+- TailwindCSS styling
 - Hot Module Replacement (HMR)
-- Asset bundling and optimization
-- Data loading and mutations
-- TypeScript by default
-- TailwindCSS for styling
 
 ## Getting Started
 
@@ -77,8 +75,4 @@ Make sure to deploy the output of `npm run build`
 
 ## Styling
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with React Router.
+Styled with [Tailwind CSS](https://tailwindcss.com/) for responsive design and utility-first styling.
